@@ -1,0 +1,29 @@
+.gallery-container{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin: 28px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 30px;
+}
+
+.heading{
+    color: #1e293b;
+    font-size: 18px;
+    font-family: 'roboto';
+    
+
+}
+.description{
+    color:  #64748b;
+    font-size: 14px;
+    font-family: 'roboto';
+    
+}
+.thumbnail-list-container{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
